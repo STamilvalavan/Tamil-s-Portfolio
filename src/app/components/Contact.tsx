@@ -18,8 +18,8 @@ export function Contact() {
   });
 
   const socialLinks = [
-    { icon: Github, label: 'GitHub', href: '#' },
-    { icon: Linkedin, label: 'LinkedIn', href: '#' },
+    { icon: Github, label: 'GitHub', href: 'https://github.com/STamilvalavan' },
+    { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/s-tamilvalavan-/' },
     { icon: Twitter, label: 'Twitter', href: '#' },
     { icon: Mail, label: 'Email', href: 'mailto:itzmestamil@gmail.com' }
   ];
