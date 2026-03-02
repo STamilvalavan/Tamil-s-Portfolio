@@ -5,11 +5,11 @@ import { motion } from 'motion/react';
 export function Projects() {
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-featured online shopping platform with payment integration, inventory management, and real-time analytics.',
+      title: 'Deepfake Detection System',
+      description: 'An AI-powered web application that detects and analyzes deepfake visual content using a Capsule Siamese Network model. The system extracts facial features, compares embeddings, and classifies media as real or manipulated with high accuracy.',
       image: 'https://images.unsplash.com/photo-1557324232-b8917d3c3dcb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXZlbG9wbWVudCUyMGNvZGluZ3xlbnwxfHx8fDE3NjkxOTQ3MzN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      tags: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
-      github: '#',
+      tags: ['Python', 'TensorFlow', 'Deep Learning', 'OpenCV'],
+      github: 'https://github.com/STamilvalavan/Deepfake-detection.git',
       demo: '#'
     },
     {
@@ -102,12 +102,14 @@ export function Projects() {
 
                   <div className="flex gap-3">
                     <Button 
-                      variant="outline" 
-                      size="sm"
-                      className="flex items-center gap-2 hover:scale-105 transition-transform"
+                    variant="outline" 
+                    size="sm"
+                    asChild
                     >
-                      <Github className="w-4 h-4" />
-                      Code
+                      <a href={project.github} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                        <Github className="w-4 h-4" />
+                        Code
+                      </a>
                     </Button>
                     <Button 
                       size="sm"
