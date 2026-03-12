@@ -18,14 +18,14 @@ export function Projects() {
       image: 'https://images.unsplash.com/photo-1742440710226-450e3b85c100?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMGRlc2lnbiUyMHN0dWRpb3xlbnwxfHx8fDE3NjkyNDkxNjB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
       tags: ['React', 'TypeScript', 'Tailwind CSS', 'Storybook'],
       github: 'https://github.com/STamilvalavan/Focusflow.git',
-      demo: '#'
+      demo: 'https://focustheflow.netlify.app/'
     },
     {
-      title: 'Mobile Fitness App',
-      description: 'Cross-platform mobile application for tracking workouts, nutrition, and health goals with social features.',
-      image: 'https://images.unsplash.com/photo-1609921212029-bb5a28e60960?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBkZXNpZ258ZW58MXx8fHwxNzY5MjIyMTk0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      tags: ['React Native', 'Firebase', 'Redux', 'GraphQL'],
-      github: '#',
+      title: 'ApexOps Dashboard',
+      description: 'A full-stack operations dashboard built to track expenses, trips, and vehicle-related activities. The system provides structured data management with REST APIs and a responsive UI for monitoring operational workflows.',
+      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080',
+      tags: ['React', 'Django', 'REST API', 'PostgreSQL'],
+      github: 'https://github.com/STamilvalavan/ApexOps.git',
       demo: '#'
     }
   ];
