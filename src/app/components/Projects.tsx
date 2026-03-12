@@ -13,11 +13,11 @@ export function Projects() {
       demo: '#'
     },
     {
-      title: 'Design System',
-      description: 'A comprehensive component library and design system used across multiple products, ensuring consistency and efficiency.',
+      title: 'Focus Flow',
+      description: 'A modern productivity web application designed to help users stay focused and organized. It includes daily task reminders, habit tracking, and a clean to-do list interface to manage goals and improve daily productivity.',
       image: 'https://images.unsplash.com/photo-1742440710226-450e3b85c100?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMGRlc2lnbiUyMHN0dWRpb3xlbnwxfHx8fDE3NjkyNDkxNjB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
       tags: ['React', 'TypeScript', 'Tailwind CSS', 'Storybook'],
-      github: '#',
+      github: 'https://github.com/STamilvalavan/Focusflow.git',
       demo: '#'
     },
     {
