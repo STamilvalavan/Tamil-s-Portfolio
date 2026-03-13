@@ -114,9 +114,12 @@ export function Projects() {
                     <Button 
                       size="sm"
                       className="flex items-center gap-2 bg-purple-600 hover:bg-purple-700 hover:scale-105 transition-transform"
+                      asChild
                     >
-                      <ExternalLink className="w-4 h-4" />
-                      Demo
+                      <a href={project.demo} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                        <ExternalLink className="w-4 h-4" />
+                        Demo
+                      </a>
                     </Button>
                   </div>
                 </div>
