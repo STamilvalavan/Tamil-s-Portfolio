@@ -113,13 +113,25 @@ export function Projects() {
                     </Button>
                     <Button 
                       size="sm"
-                      className="flex items-center gap-2 bg-purple-600 hover:bg-purple-700 hover:scale-105 transition-transform"
-                      asChild
+                      className={`flex items-center gap-2 transition-transform ${
+                        project.demo === '#' 
+                          ? 'bg-gray-400 cursor-not-allowed opacity-50' 
+                          : 'bg-purple-600 hover:bg-purple-700 hover:scale-105'
+                      }`}
+                      asChild={project.demo !== '#'}
+                      disabled={project.demo === '#'}
                     >
-                      <a href={project.demo} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-                        <ExternalLink className="w-4 h-4" />
-                        Demo
-                      </a>
+                      {project.demo !== '#' ? (
+                        <a href={project.demo} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                          <ExternalLink className="w-4 h-4" />
+                          Demo
+                        </a>
+                      ) : (
+                        <span className="flex items-center gap-2">
+                          <ExternalLink className="w-4 h-4" />
+                          Demo
+                        </span>
+                      )}
                     </Button>
                   </div>
                 </div>
